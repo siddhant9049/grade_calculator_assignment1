@@ -1,0 +1,46 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: antiquewhite;
+
+}
+input{
+    margin: 10px 10px 10px 0px;
+}
+
+.side-container{
+    /* border: 1px solid black; */
+    height: 440px;
+    width: 60vw;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+body{
+    background-color: blanchedalmond;
+}
+.main-container{
+    display: flex;
+    background-color: blanchedalmond;
+}
+
+#Total{
+    /* border: 1px solid black; */
+    height: 15vh;
+}
+#Average{
+    /* border: 1px solid black; */
+    height: 15vh;
+}
+#Grade{
+    /* border: 1px solid black; */
+    height: 15vh;
+}
+
+h3{
+     border: 1px solid black;
+     height: 15vh;
+    }

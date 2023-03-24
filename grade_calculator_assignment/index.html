@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">
+        Grade System in JS
+    </h1>
+    <div class="main-container">
+    <div class="main">
+        <label for="">English</label>
+        <input id="english" type="text">
+        <label for="">Math</label>
+        <input id="math" type="text">
+        <label for="">Physics</label>
+        <input id="physics" type="text">
+        <label for="">Chemistry</label>
+        <input id="chemistry" type="text">
+        <label for="">Computer</label>
+        <input id="computer" type="text">
+        <button onclick="calculate()">Claculate Grade</button>
+    </div>
+    <div class="side-container">
+        Total:<h3 >
+            Your total marks are <span id="Total"></span>
+
+        </h3>
+        Average:<h3>
+            Your average marks are <span id="Average"></span>
+        </h3>
+        Grade:<h3>
+            You Got <span id="Grade"></span> Garde
+
+
+        </h3>
+
+    </div>
+</div>
+    <script src="./index.js"></script>
+</body>
+</html>
